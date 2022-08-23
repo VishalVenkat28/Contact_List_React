@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 class Header extends Component {
   render() {
     return (
-      <h1 className="text-center text-secondary p-3">
+      <h1 className="text-center text-success p-3">
         📖 CONTACT LIST MANAGER 📓
       </h1>
     );

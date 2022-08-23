@@ -3,8 +3,8 @@ import { Container, Button, Row, CardGroup, Col } from "react-bootstrap";
 
 import Contact from "./Contact";
 import ContactForm from "./ContactForm";
-import { userApi } from "../API/url";
-import Header from "./Header";
+import { userApi } from '../API/url';
+import Header from "./Header"
 
 class ContactList extends React.Component {
   constructor(props) {
@@ -97,7 +97,7 @@ class ContactList extends React.Component {
           </Row>
           <Row className="d-grid gap-2 mb-3">
             <Button
-              variant="warning"
+              variant="primary"
               size="lg"
               onClick={() => this.toggleAddForm(!showAddform)}
             >
